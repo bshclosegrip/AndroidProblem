@@ -21,7 +21,7 @@ Duplicate class kotlin.time.jdk8.DurationConversionsJDK8Kt found in modules kotl
 
 Go to the documentation to learn how to Fix dependency resolution errors.
 
-위 에러 발생시 아래 gradle 파일 수정
+# 위 에러 발생시 아래 gradle 파일 수정
 
 C:\Users\BSH\AndroidStudioProjects\Backet\app\build.gradle
 
