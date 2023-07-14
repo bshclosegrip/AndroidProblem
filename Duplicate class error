@@ -20,3 +20,16 @@ Duplicate class kotlin.text.jdk8.RegexExtensionsJDK8Kt found in modules kotlin-s
 Duplicate class kotlin.time.jdk8.DurationConversionsJDK8Kt found in modules kotlin-stdlib-1.8.20 (org.jetbrains.kotlin:kotlin-stdlib:1.8.20) and kotlin-stdlib-jdk8-1.6.21 (org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21)
 
 Go to the documentation to learn how to Fix dependency resolution errors.
+
+위 에러 발생시 아래 gradle 파일 수정
+
+C:\Users\BSH\AndroidStudioProjects\Backet\app\build.gradle
+
+compileSdk 33
+
+minSdk 30
+
+targetSdk 33
+
+implementation(platform("org.jetbrains.kotlin:kotlin-bom:1.8.0"))
+
